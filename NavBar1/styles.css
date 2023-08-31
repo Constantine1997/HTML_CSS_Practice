@@ -1,0 +1,30 @@
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.header-main-logo img {
+    height: 30px;
+}
+
+.header-main-nav {
+    width: 120px;
+    height: 100%;
+    background-color: blue;
+}
+
+.header-main-sm {
+    width: 120px;
+    height: 100%;
+    background-color: yellow;
+}
