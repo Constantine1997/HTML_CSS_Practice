@@ -3,21 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Movie Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-main">
-        <img src="Assets/Constantine’s.svg" alt="logo">
-        <nav class="header-main-nav">
-            <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>REVIEWS</li>
+    <header class="header container">
+        <h2 class="header__title">Constantine's Movie Reviews</h2>
+        <nav>
+            <ul class="header__menu">
+                <a class="header__link" href="#home"><li>Home</li></a>
+                <a class="header__link" href="#about"><li>About</li></a>
+                <a class="header__link" href="#reviews"><li>Reviews</li></a>
             </ul>
         </nav>
     </header>
-    
+    <main class="hero container">
+        <h1 class="hero__title">Discover the highest rated movies of 2023</h1>
+        <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nihil sunt eaque ipsum recusandae eius sint atque aliquam? Dicta vitae quibusdam mollitia sed nam eveniet fuga vero maiores voluptate id?</p>
+        <button class="button">Sign Up</button>
+        <button class="button">Learn More</button>
+        <div class="wrapper">
+            <div class="hero__img"></div>
+        </div>
+    </main>
+    <section class="feature container">
+        <h2 class="feature__title">Latest Reviews</h2>
+        <div class="feature__movies">
+            <div class="movie__wrapper">
+                <div class="movies__img1"></div>
+                <label class="movie__label">Mission Impossible: Dead Reckoning</label>
+            </div>
+            
+            <div class="movie__wrapper">
+                <div class="movies__img2"></div>
+                <label class="movie__label">Guardians of the Galaxy: Volume 3</label>
+            </div>
+            
+            <div class="movie__wrapper">
+                <div class="movies__img3"></div>
+                <label class="movie__label">Halo</label>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter container">
+        <div class="newsletter__wrapper">
+            <div class="newsletter__wrapper-left">
+                <h3 class="newsletter__title">Sign up to our newsletter</h3>
+                <p class="newsletter__description">And join a community of movie enthusiast on a quest to find their favorite movies</p>
+            </div>
+            <button class="button">Subscribe</button>
+        </div>
+    </section>
+    <footer class="footer container">
+        <h3 class="footer__title">Constantine's Movie Reviews</h3>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,182 @@
+/*CSS Reset*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/*Font*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+/*Utility Class*/
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+/*Header*/
+
+.header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.header__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Hero*/
+
+.hero {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 4rem;
+    max-width: 25ch;
+    margin-inline: auto;
+    line-height: 1.1;
+    letter-spacing: -0.05rem;
+    margin-bottom: 25px;
+}
+
+.hero__description {
+    font-size: 1.2rem;
+    max-width: 60ch;
+    margin-inline: auto;
+    margin-bottom: 25px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: inline;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-weight: 300;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.hero__img {
+    width: 50%;
+    border: 2px solid black;
+    margin-top: 5rem;
+    height: 400px;
+    width: 900px;
+    background-image: url(Assets/meta-v3-en_US.jpg);
+    background-size: cover;
+}
+
+/*Features*/
+
+.feature__title {
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.feature__movies{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie__label {
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.movies__img1{
+    border: 3px solid black;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+    background-image: url(Assets/8077948.3.jpg);
+    background-size: cover;
+}
+
+.movies__img2{
+    border: 3px solid black;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+    background-image: url(Assets/marvel-guardians-of-the-galaxy-3-one-more-with-feeling-i173488.jpg);
+    background-size: cover;
+}
+
+.movies__img3{
+    border: 3px solid black;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+    background-image: url(Assets/MV5BYmY5YmJiM2QtNjdhOC00NjRhLTgyNDEtYmM1NmJhNjc5NDE2XkEyXkFqcGdeQXVyMjQ4ODcxNTM@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.newsletter__wrapper {
+    height: 120px;
+    width: 600px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.newsletter__title {
+    font-size: 2rem;
+    max-width: 15ch;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    margin-bottom: .5rem;
+}
+
+.newsletter__description {
+    font-size: .9rem;
+    max-width: 40ch;
+}
+
+/*Footer*/
+
+.footer {
+    text-align: center;
+}
+
+.footer__title {
+    font-size: .8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
