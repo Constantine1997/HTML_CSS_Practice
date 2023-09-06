@@ -1,0 +1,53 @@
+/*Reset*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop');
+    background-size: cover;
+
+}
+
+/*Header*/
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__models {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.header__menu {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.models {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+}
