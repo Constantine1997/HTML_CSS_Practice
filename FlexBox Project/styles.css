@@ -61,10 +61,9 @@ nav {
     flex: 1;
 }
 
-
-
-
-
+.header__bars {
+    display: none;
+}
 
 /*Hero Section*/
 .hero {
@@ -238,4 +237,48 @@ nav {
     font-size: 1rem;
     font-weight: 300;
     letter-spacing: 0.1rem;
+}
+
+/*Mediaqueries*/
+
+@media (max-width: 891px) {
+    .header__title {
+        font-size: 1.2rem;
+    }
+
+    .header__link {
+        font-size: .8rem;
+    }
+
+    .header__button {
+        font-size: .8rem;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 713px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__buttons {
+        display: none;
+    }
+
+    .header__bars {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .header__title {
+        flex: 0 1 auto;
+    }
 }
