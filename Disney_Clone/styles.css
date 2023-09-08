@@ -1,0 +1,51 @@
+/*Reset*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at center, #090b13, #14161C);
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/*Header*/
+
+.header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-svg {
+    width: 150px;
+    height: auto;
+}
+
+.header__links {
+    color: white;
+}
+
+.header__profile-pic {
+    width: 60px;
+    height: auto;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
